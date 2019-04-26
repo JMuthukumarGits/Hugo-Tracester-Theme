@@ -1,0 +1,275 @@
+title = "Tracester"
+baseURL = "https://examplesite.com"
+languageCode = "en-us"
+theme = "freshone"
+
+# The site's parameters
+[params]
+
+  [params.navbarlogo]
+  image = "logos/tracesterlogo2.png"
+  link = "/"
+
+  [params.font]
+  name = "Open Sans"
+  sizes = [
+    400.0,
+    600.0
+  ]
+
+  [params.hero]
+  title = "Tracester Team."
+  subtitle = "We are developing Tracester Application & Tracester Analytics."
+  buttontext = "Let's Go"
+  buttonlink = "#"
+  image = "illustrations/home.png"
+  clientlogos = [
+    "trace",
+    "trace",
+    "kromo",
+    "trace",
+    "trace"
+  ]
+
+  [params.sidebar]
+  logo = "fresh-square"
+
+    [[params.sidebar.sections]]
+    title = "User"
+    icon = "user"
+
+      [[params.sidebar.sections.links]]
+      text = "Profile"
+      url = "/"
+
+      [[params.sidebar.sections.links]]
+      text = "Account"
+      url = "/"
+
+      [[params.sidebar.sections.links]]
+      text = "Settings"
+      url = "/"
+
+    [[params.sidebar.sections]]
+    title = "Messages"
+    icon = "envelope"
+
+      [[params.sidebar.sections.links]]
+      text = "Inbox"
+      url = "/"
+
+      [[params.sidebar.sections.links]]
+      text = "Compose"
+      url = "/"
+
+    [[params.sidebar.sections]]
+    title = "Images"
+    icon = "image"
+
+      [[params.sidebar.sections.links]]
+      text = "Library"
+      url = "/"
+
+      [[params.sidebar.sections.links]]
+      text = "Upload"
+      url = "/"
+
+    [[params.sidebar.sections]]
+    title = "Settings"
+    icon = "cog"
+
+      [[params.sidebar.sections.links]]
+      text = "User settings"
+      url = "/"
+
+      [[params.sidebar.sections.links]]
+      text = "App settings"
+      url = "/"
+
+  [params.section1]
+  title = "Power of Tracester"
+  subtitle = "with great customer service"
+
+    [[params.section1.tiles]]
+    title = "Tracester"
+    icon = "tlogodark"
+    text = "This is our tracester application"
+    url = "https://app.zohocreator.com/kamalg/tracester-lab#Lab_Admin"
+    buttonText = "Check"
+
+    [[params.section1.tiles]]
+    title = "Tracester Analytics"
+    icon = "tanalytics"
+    text = "This is our tracester analytics application"
+    url = "https://www.zoho.com/analytics/"
+    buttonText = "Check"
+
+    [[params.section1.tiles]]
+    title = "Tracester Modules"
+    icon = "tmodules"
+    text = "This is our tracester application modules"
+    url = "https://app.zohocreator.com/kamalg/farm-tsr#Dashboard"
+    buttonText = "Check"
+
+  [params.section2]
+  title = "Best results waiting for you"
+  subtitle = "And we give it"
+
+    [[params.section2.features]]
+    title = "Tracester Application"
+    text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
+    icon = "ta"
+
+    [[params.section2.features]]
+    title = "Tracester Analytics"
+    text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
+    icon = "ta"
+
+    [[params.section2.features]]
+    title = "Tracester Modules"
+    text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
+    icon = "ta"
+
+  [params.section3]
+  title = "Our Analytics"
+  subtitle = "Ask your questions"
+  image = "illustrations/mockups/dashboard.png"
+  buttonText = "Let's Go"
+  buttonLink = "https://www.zoho.com/analytics/"
+
+  [params.section4]
+  title = "Our Peoples!"
+  subtitle = "We are the pillers of Tracester Application & Tracester Analytics"
+
+    [[params.section4.clients]]
+    name = "Kamal G"
+    quote = "Sample Content about us."
+    job = "EKavin - CEO"
+    img = 1.0
+
+    [[params.section4.clients]]
+    name = "Kamal G"
+    quote = "Sample Content about us."
+    job = "EKavin - CEO"
+    img = 2.0
+
+    [[params.section4.clients]]
+    name = "Kamal G"
+    quote = "Sample Content about us."
+    job = "EKavin - CEO"
+    img = 3.0
+
+  [params.footer]
+  logo = "trfooter.svg"
+  bulmalogo = true
+
+    [params.footer.quicklinks]
+
+      [params.footer.quicklinks.column1]
+      title = "Product"
+
+        [[params.footer.quicklinks.column1.links]]
+        text = "Discover features"
+        link = "/"
+
+        [[params.footer.quicklinks.column1.links]]
+        text = "Why choose our product?"
+        link = "/"
+
+        [[params.footer.quicklinks.column1.links]]
+        text = "Compare features"
+        link = "/"
+
+        [[params.footer.quicklinks.column1.links]]
+        text = "Our roadmap"
+        link = "/"
+
+        [[params.footer.quicklinks.column1.links]]
+        text = "Request features"
+        link = "/"
+
+      [params.footer.quicklinks.column2]
+      title = "Docs"
+
+        [[params.footer.quicklinks.column2.links]]
+        text = "Get started"
+        link = "/"
+
+        [[params.footer.quicklinks.column2.links]]
+        text = "User guides"
+        link = "/"
+
+        [[params.footer.quicklinks.column2.links]]
+        text = "Admin guide"
+        link = "/"
+
+        [[params.footer.quicklinks.column2.links]]
+        text = "Developers"
+        link = "/"
+
+      [params.footer.quicklinks.column3]
+      title = "Blog"
+
+        [[params.footer.quicklinks.column3.links]]
+        text = "Latest news"
+        link = "/"
+
+        [[params.footer.quicklinks.column3.links]]
+        text = "Tech articles"
+        link = "/"
+
+        [[params.footer.quicklinks.column3.links]]
+        text = "Video blog"
+        link = "/"
+
+    [[params.footer.socialmedia]]
+    link = "https://github.com/lucperkins/github-fresh"
+    icon = "github"
+
+    [[params.footer.socialmedia]]
+    link = "https://dribbble.com/#"
+    icon = "dribbble"
+
+    [[params.footer.socialmedia]]
+    link = "https://facebook.com/#"
+    icon = "facebook"
+
+    [[params.footer.socialmedia]]
+    link = "https://twitter.com/lucperkins"
+    icon = "twitter"
+
+    [[params.footer.socialmedia]]
+    link = "https://bitbucket.org/#"
+    icon = "bitbucket"
+
+  [[params.navbar]]
+  title = "Features"
+  url = "/"
+
+  [[params.navbar]]
+  title = "Pricing"
+  url = "/"
+
+  [[params.navbar]]
+  title = "Dropdown"
+
+    [[params.navbar.sublinks]]
+    title = "Dropdown item"
+    url = "/"
+
+    [[params.navbar.sublinks]]
+    title = "Dropdown item"
+    url = "/"
+
+    [[params.navbar.sublinks]]
+    title = "Dropdown item"
+    url = "/"
+
+  [[params.navbar]]
+  title = "Log in"
+  url = "/"
+
+  [[params.navbar]]
+  title = "Sign up"
+  url = "/"
+  button = true
