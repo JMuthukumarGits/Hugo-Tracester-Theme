@@ -1,5 +1,5 @@
 title = "Tracester"
-baseURL = "https://examplesite.com"
+baseURL = "https://hugo-tracester-theme.firebaseapp.com"
 languageCode = "en-us"
 theme = "freshone"
 
